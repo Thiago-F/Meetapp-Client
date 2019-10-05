@@ -1,22 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { ReactComponent as Micon } from '~/assets/M.svg';
-import { Container } from './styles';
+import { ReactComponent as LogoM } from '~/assets/M.svg';
 
 export default function SignIn() {
     return (
-        <Container>
-            <div className="icon">
-                <Micon alt="Meetapp" />
-            </div>
+        <>
+            <LogoM alt="Meetapp" />
             <form>
-                <input type="text" />
-                <input type="text" />
+                <input type="email" placeholder="Digite seu e-mail" />
+                <input type="password" placeholder="Sua senha secreta" />
                 <button type="button" className="btn">
                     Entrar
                 </button>
+                <Link to="/register">Criar conta grátis</Link>
             </form>
-            <span>Criar conta grátis</span>
-        </Container>
+        </>
     );
 }
