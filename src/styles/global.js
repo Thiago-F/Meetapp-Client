@@ -14,22 +14,32 @@ export default createGlobalStyle`
 
     }
 
+    *:focus {
+        outline: 0;
+    }
+
     html , body , #root {
-        min-height: 100%;
+        height: 100%;
     }
 
     body {
-        background: linear-gradient(#22202c, #402845) no-repeat;
         -webkit-font-smoothing: antialiased;
     }
+
     body, input, button{
-        font: 14px Roboto, sans-serif;
+        font: 14px 'Roboto', sans-serif;
     }
-    #root {
+
+    a{
+        text-decoration: none;
+    }
+
+    /* #root {
         max-width: 1020px;
         margin: 0 auto;
         padding: 0 20px 50px;
-    }
+    } */
+
     button{
         cursor: pointer;
     }

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import { Wrapper } from './styles';
 
-export default function defaultLayout({ children }) {
+export default function AuthLayout({ children }) {
     return <Wrapper>{children}</Wrapper>;
 }
 
-defaultLayout.propTypes = {
+AuthLayout.propTypes = {
     children: PropTypes.element.isRequired,
 };
