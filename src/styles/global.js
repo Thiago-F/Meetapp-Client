@@ -11,8 +11,15 @@ export default createGlobalStyle`
         padding : 0;
         outline: 0;
         box-sizing: border-box;
+
     }
+
+    html , body , #root {
+        min-height: 100%;
+    }
+
     body {
+        background: linear-gradient(#22202c, #402845) no-repeat;
         -webkit-font-smoothing: antialiased;
     }
     body, input, button{
