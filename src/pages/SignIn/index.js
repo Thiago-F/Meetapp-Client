@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactComponent as Micon } from '../../assets/M.svg';
+import { ReactComponent as Micon } from '~/assets/M.svg';
 import { Container } from './styles';
 
 export default function SignIn() {
