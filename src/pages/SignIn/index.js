@@ -6,7 +6,7 @@ import { ReactComponent as LogoM } from '~/assets/M.svg';
 
 export default function SignIn() {
     function handleSubmit(data) {
-        console.log(data);
+        console.tron.log(data);
     }
 
     return (
