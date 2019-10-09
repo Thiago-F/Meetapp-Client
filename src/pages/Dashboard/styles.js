@@ -11,22 +11,22 @@ export const Header = styled.div`
     display: flex;
     justify-content: space-between;
 
-    button{
+    button {
         display: flex;
         align-items: center;
         padding: 10px 15px;
         border-radius: 4px;
         margin: 0 15px;
-        background-color: #D44059;
+        background-color: #d44059;
         border: 0;
         color: #fff;
 
-        svg{
+        svg {
             margin-right: 5px;
         }
     }
-`
+`;
 
 export const MeetupList = styled.div`
     /* border: 1px solid red; */
-`
+`;

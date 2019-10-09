@@ -14,7 +14,7 @@ export default function MeetupItem() {
             </Title>
             <div>
                 <Time>24 de Outubro de 1970, as 19:00</Time>
-                <Link to="/">
+                <Link to="/meetup/1">
                     <MdKeyboardArrowRight size={24} color="#fff" />
                 </Link>
             </div>
