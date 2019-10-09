@@ -5,11 +5,13 @@ import { updateProfileSuccess, updateProfileFailure } from './actions';
 
 export function* updateProfile({ payload }) {
     try {
-        const { name, email, ...rest } = payload.data;
+        // eslint-disable-next-line camelcase
+        const { name, email, banner_id, ...rest } = payload.data;
 
         const profile = {
             name,
             email,
+            banner_id,
             ...(rest.oldPassword ? rest : {}),
         };
 
