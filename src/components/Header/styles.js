@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: rgba(0,0,0,0.3);;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 0 30px;
 `;
 export const Content = styled.div`
@@ -12,7 +12,7 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    nav{
+    nav {
         display: flex;
         align-items: center;
 
@@ -22,7 +22,7 @@ export const Content = styled.div`
         }
     }
 
-    aside{ 
+    aside {
         display: flex;
         align-items: center;
 
@@ -30,25 +30,22 @@ export const Content = styled.div`
             padding: 10px 15px;
             border-radius: 4px;
             margin: 0 15px;
-            background-color: #D44059;
+            background-color: #d44059;
             border: 0;
             color: #fff;
         }
     }
 `;
 export const Profile = styled.div`
-    
-        strong{
-            color: #fff;
-            display: block;
-        }
-        a{
-            text-align: right;
-            display: block;
-            margin-top: 2px;
-            font-size: 12px;
-            color : #999;
-        } 
-        
+    strong {
+        color: #fff;
+        display: block;
+    }
+    a {
+        text-align: right;
+        display: block;
+        margin-top: 2px;
+        font-size: 12px;
+        color: #999;
+    }
 `;
- 
